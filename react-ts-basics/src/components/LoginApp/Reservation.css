@@ -1,0 +1,22 @@
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 80px;
+  display: grid;
+  border-radius: 12px;
+  background-color: rgb(246, 241, 241);
+  @apply shadow-lg bg-slate-100;
+}
+
+.reservation:hover {
+  cursor: pointer;
+  scale: 1.04;
+  transition: 0.2s ease-in;
+}
+
+.reservations-wrapper {
+  padding: 1rem;
+  align-self: flex-start;
+}

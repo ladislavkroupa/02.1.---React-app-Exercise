@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.accessType:hover {
+  color: #f9e174;
+  text-decoration: overline;
+  cursor: grab;
+}
+
+h1 {
+  text-align: center;
+}
+
+.validationLabel {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  min-height: 100vh;
+  background: linear-gradient(#f0f6f8, #e0e1e7);
+}
+
+main {
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #3a4346;
+  color: #f0f6f8;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1.25);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #dfd9be;
+}
+
+input {
+  font: inherit;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #b4b6c4;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-button-default {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #f7e596;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  font-weight: bold;
+  color: #3a4346;
+  cursor: pointer;
+}
+
+.form-button-default:hover {
+  background-color: #f9e175;
+}
+
+.disabled-button {
+  display: block;
+  cursor: not-allowed;
+  background-color: #909090;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  font-weight: bold;
+  color: #3a4346;
+}
+
+.registration-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+
+.user-credentials {
+  align-self: flex-start;
+}
