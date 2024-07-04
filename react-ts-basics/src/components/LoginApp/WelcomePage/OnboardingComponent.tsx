@@ -250,7 +250,7 @@ export default function OnboardingComponent({
 
   return (
     <main>
-      <h1 style={{ color: "#f1bc1e", textShadow: "3px 5px 1px black" }}>Vite Application</h1>
+      <h1 style={{ color: "#f1bc1e", textShadow: "3px 5px 1px black" }}>Application</h1>
       <h2>{isLogin ? "Login" : "Register"}</h2>
       <p className="accessType" onClick={toggleSetLogin}>
         {isLogin ? "Don't have an account?" : "Already have an account"}
